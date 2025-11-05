@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(255, 235, 133);
+}
+.titre{
+    color: green;
+    text-align: center;
+    font-family: Caveat brush;
+}
+
+.titre p{
+    font-size: 30px;
+}
+.calendrier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    justify-self: center;
+    border-radius: 8px;
+}
+.fenetre-calendrier{
+    display: flex;
+    margin-top: 2rem;
+    min-width: 200px;
+    min-height: 200px;
+    border-style:groove;
+    border-radius: 12px;
+    border-color: gold;
+    border-width: 0.5rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    
+    
+   
+}
+.impaire{
+    background-color: darkgreen;
+}
+
+.paire{
+    background-color: #c6302c;
+}
+.paire .chiffre{
+    background-color:inherit;
+    display: flex;
+    padding-top: 1.8rem;
+    font-size: 120px;
+    font-family: Caveat brush;
+    z-index: 2;
+}
+
+.impaire .chiffre{
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.8rem;
+    font-size: 120px;
+    font-family: Caveat brush;
+}
+.open{
+    font-feature-settings: "afrc";
+    background-color: gold;
+    
+}
+
