@@ -47,7 +47,7 @@
     padding-top: 1.8rem;
     font-size: 120px;
     font-family: Caveat brush;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .impaire .chiffre{
@@ -63,3 +63,10 @@
     color: #c6302c;
 }
 
+.curious{
+    font-size: 20px;
+    font-family: Caveat brush;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}

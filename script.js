@@ -42,7 +42,7 @@ function ouverture(caseClique,url){
         window.open(url,PictureInPictureWindow, "popup")
         caseClique.classList.toggle('open');
     }else{
-        console.log("wait for it ! You're too curious")
+        console.log("wait for it ! You're too curious")  
     }
 }
 
