@@ -32,19 +32,94 @@ const today = new Date();
 const aujourdhui = today.getDate();
 console.log(aujourdhui);
 
-//évènement ouverture de calendrier
-case1.addEventListener('click',function(){
-    const contenuCase = case1.lastElementChild.innerText;
+
+
+function ouverture(caseClique,url){
+    const contenuCase = caseClique.lastElementChild.innerText;
     console.log(contenuCase);
     if(contenuCase <= aujourdhui){
-        console.log('case 1 ouverte');
-        window.open("https://scratch.mit.edu/projects/622263363","popup")
-        case1.classList.toggle('open');
-
+        console.log('"caseClique" ouverte');
+        window.open(url,PictureInPictureWindow, "popup")
+        caseClique.classList.toggle('open');
     }else{
-        console.log("wait for it ! you're too curious")
+        console.log("wait for it ! You're too curious")
     }
-})
+}
+
+//évènements ouverture de calendrier pour chaque case
+case1.addEventListener('click', function(){
+    ouverture(case1, "")});
+
+case2.addEventListener('click', function(){
+    ouverture(case2, "")});
+
+case3.addEventListener('click', function(){
+    ouverture(case3, "")});
+
+case4.addEventListener('click', function(){
+    ouverture(case4, "")});
+
+case5.addEventListener('click', function(){
+    ouverture(case5, "")});
+
+case6.addEventListener('click', function(){
+    ouverture(case6, "")});
+
+case7.addEventListener('click', function(){
+    ouverture(case7, "")});
+
+case8.addEventListener('click', function(){
+    ouverture(case8, "")});
+
+case9.addEventListener('click', function(){
+    ouverture(case9, "")});
+
+case10.addEventListener('click', function(){
+    ouverture(case10, "")});
+
+case11.addEventListener('click', function(){
+    ouverture(case11, "")});
+
+case12.addEventListener('click', function(){
+    ouverture(case12, "")});
+
+case13.addEventListener('click', function(){
+    ouverture(case13, "")});
+
+case14.addEventListener('click', function(){
+    ouverture(case14, "")});
+
+case15.addEventListener('click', function(){
+    ouverture(case15, "")});
+
+case16.addEventListener('click', function(){
+    ouverture(case16, "")});
+
+case17.addEventListener('click', function(){
+    ouverture(case17, "")});
+
+case18.addEventListener('click', function(){
+    ouverture(case18, "")});
+
+case19.addEventListener('click', function(){
+    ouverture(case19, "")});
+
+case20.addEventListener('click', function(){
+    ouverture(case20, "")});
+
+case21.addEventListener('click', function(){
+    ouverture(case21, "")});
+
+case22.addEventListener('click', function(){
+    ouverture(case22, "")});
+
+case23.addEventListener('click', function(){
+    ouverture(case23, "")});
+
+case24.addEventListener('click', function(){
+    ouverture(case24, "")});
+
+
     
     
 

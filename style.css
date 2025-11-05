@@ -59,8 +59,7 @@
     font-family: Caveat brush;
 }
 .open{
-    font-feature-settings: "afrc";
     background-color: gold;
-    
+    color: #c6302c;
 }
 
