@@ -70,3 +70,17 @@
     justify-content: center;
     align-content: center;
 }
+.bas-de-page p{
+    display: flex;
+    width: 99%;
+    height: 3rem;
+    background-color: gold;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-self: center;
+    text-align:inherit;
+    padding-top: 1.5rem;
+
+   
+    font-family: Caveat brush;
+}

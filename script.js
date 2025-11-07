@@ -43,6 +43,7 @@ function ouverture(caseClique,url){
         caseClique.classList.toggle('open');
     }else{
         console.log("wait for it ! You're too curious")  
+        //organiser l'apparition d'une fenêtre avec le message you're too curious !
     }
 }
 
