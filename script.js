@@ -30,56 +30,63 @@ const case24 = document.getElementById('case24')
 //récupération de la date
 const today = new Date();
 const aujourdhui = today.getDate();
+const mois = today.getMonth();
 console.log(aujourdhui);
+console.log("mois", mois);
+console.log(today);
 
 
 
 function ouverture(caseClique,url){
     const contenuCase = caseClique.lastElementChild.innerText;
     console.log(contenuCase);
-    if(contenuCase <= aujourdhui){
+    //Pensee à modifier le mois en 11
+    if(contenuCase <= aujourdhui && mois===10){
         console.log('"caseClique" ouverte');
-        window.open(url,PictureInPictureWindow, "popup")
-        caseClique.classList.toggle('open');
+        window.open(url,PictureInPictureWindow)
+        caseClique.classList.add('open');
     }else{
         console.log("wait for it ! You're too curious")  
         //organiser l'apparition d'une fenêtre avec le message you're too curious !
+       window.alert("Wait for it ! You're too curious !")
     }
 }
 
+
 //évènements ouverture de calendrier pour chaque case
 case1.addEventListener('click', function(){
-    ouverture(case1, "")});
+ouverture(case1, "https://scratch.mit.edu/projects/1247571502");//bataille intergalactique de Maxime
+});
 
 case2.addEventListener('click', function(){
-    ouverture(case2, "")});
+    ouverture(case2, "https://scratch.mit.edu/projects/1173367050")});//jeu gold clicker de Jules
 
 case3.addEventListener('click', function(){
-    ouverture(case3, "")});
+    ouverture(case3, "https://scratch.mit.edu/projects/1081599395")});//sticky man Timéo
 
 case4.addEventListener('click', function(){
-    ouverture(case4, "")});
+    ouverture(case4, "https://scratch.mit.edu/projects/1098718656")});//jeu Universe war de Stan
 
 case5.addEventListener('click', function(){
-    ouverture(case5, "")});
+    ouverture(case5, "https://scratch.mit.edu/projects/1171240961")});//jeu de Lino galaxy shooter
 
 case6.addEventListener('click', function(){
-    ouverture(case6, "")});
+    ouverture(case6, "https://scratch.mit.edu/projects/1180436313")});//jeu de Jules Neon snakes
 
 case7.addEventListener('click', function(){
-    ouverture(case7, "")});
+    ouverture(case7, "https://scratch.mit.edu/projects/1177487090")});//neon pong jeu de Lino
 
 case8.addEventListener('click', function(){
-    ouverture(case8, "")});
+    ouverture(case8, "https://scratch.mit.edu/projects/1197116753")});//jeu de Jules scratch cat clicker
 
 case9.addEventListener('click', function(){
-    ouverture(case9, "")});
+    ouverture(case9, "https://scratch.mit.edu/projects/1194095378")});// jeu asteroeide fusée Jules
 
 case10.addEventListener('click', function(){
-    ouverture(case10, "")});
+    ouverture(case10, "https://scratch.mit.edu/projects/1135584509")});//jeu de voiture Jules
 
 case11.addEventListener('click', function(){
-    ouverture(case11, "")});
+    ouverture(case11, "https://scratch.mit.edu/projects/622263363")});//jeu perroquet volant Vio
 
 case12.addEventListener('click', function(){
     ouverture(case12, "")});
