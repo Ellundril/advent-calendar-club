@@ -41,7 +41,7 @@ function ouverture(caseClique,url){
     const contenuCase = caseClique.lastElementChild.innerText;
     console.log(contenuCase);
     //Pensee à modifier le mois en 11
-    if(contenuCase <= aujourdhui && mois===10){
+    if(contenuCase <= aujourdhui && mois===11){
         console.log('"caseClique" ouverte');
         window.open(url,PictureInPictureWindow)
         caseClique.classList.add('open');
