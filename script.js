@@ -74,37 +74,37 @@ case6.addEventListener('click', function(){
     ouverture(case6, "https://scratch.mit.edu/projects/1180436313")});//jeu de Jules Neon snakes
 
 case7.addEventListener('click', function(){
-    ouverture(case7, "https://scratch.mit.edu/projects/1177487090")});//neon pong jeu de Lino
+    ouverture(case7, "https://scratch.mit.edu/projects/1250489384")});//jeu fantôme Hadrien
 
 case8.addEventListener('click', function(){
-    ouverture(case8, "https://scratch.mit.edu/projects/1197116753")});//jeu de Jules scratch cat clicker
+    ouverture(case8, "https://scratch.mit.edu/projects/1251270279")});//jeu balle Lana
 
 case9.addEventListener('click', function(){
     ouverture(case9, "https://scratch.mit.edu/projects/1194095378")});// jeu asteroeide fusée Jules
 
 case10.addEventListener('click', function(){
-    ouverture(case10, "https://scratch.mit.edu/projects/1135584509")});//jeu de voiture Jules
+    ouverture(case10, "https://scratch.mit.edu/projects/1251272970")});//jeu de renard voiture Mia
 
 case11.addEventListener('click', function(){
     ouverture(case11, "https://scratch.mit.edu/projects/622263363")});//jeu perroquet volant Vio
 
 case12.addEventListener('click', function(){
-    ouverture(case12, "")});
+    ouverture(case12, "https://scratch.mit.edu/projects/1177487090")});//neon pong jeu de Lino
 
 case13.addEventListener('click', function(){
-    ouverture(case13, "")});
+    ouverture(case13, "https://scratch.mit.edu/projects/1197116753")});//jeu de Jules scratch cat clicker
 
 case14.addEventListener('click', function(){
-    ouverture(case14, "")});
+    ouverture(case14, "https://scratch.mit.edu/projects/1251284084")});//jeu avion de chasse Adriel
 
 case15.addEventListener('click', function(){
-    ouverture(case15, "")});
+    ouverture(case15, "https://scratch.mit.edu/projects/1251284084")});//jeu Taylor le prince
 
 case16.addEventListener('click', function(){
     ouverture(case16, "")});
 
 case17.addEventListener('click', function(){
-    ouverture(case17, "")});
+    ouverture(case17, "https://scratch.mit.edu/projects/1135584509")});//jeu de voiture Jules
 
 case18.addEventListener('click', function(){
     ouverture(case18, "")});
