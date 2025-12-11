@@ -104,7 +104,7 @@ case16.addEventListener('click', function(){
     ouverture(case16, "https://scratch.mit.edu/projects/1135584509")});//jeu de voiture Jules
 
 case17.addEventListener('click', function(){
-    ouverture(case17, "")});
+    ouverture(case17, "https://scratch.mit.edu/projects/1081558063")});//jeu fantome et balle Taylor
 
 case18.addEventListener('click', function(){
     ouverture(case18, "")});
