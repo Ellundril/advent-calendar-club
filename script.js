@@ -98,13 +98,13 @@ case14.addEventListener('click', function(){
     ouverture(case14, "https://scratch.mit.edu/projects/1251284084")});//jeu avion de chasse Adriel
 
 case15.addEventListener('click', function(){
-    ouverture(case15, "https://scratch.mit.edu/projects/1251284084")});//jeu Taylor le prince
+    ouverture(case15, "https://scratch.mit.edu/projects/1251285808")});//jeu Taylor le prince
 
 case16.addEventListener('click', function(){
-    ouverture(case16, "")});
+    ouverture(case16, "https://scratch.mit.edu/projects/1135584509")});//jeu de voiture Jules
 
 case17.addEventListener('click', function(){
-    ouverture(case17, "https://scratch.mit.edu/projects/1135584509")});//jeu de voiture Jules
+    ouverture(case17, "")});
 
 case18.addEventListener('click', function(){
     ouverture(case18, "")});
