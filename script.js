@@ -107,7 +107,7 @@ case17.addEventListener('click', function(){
     ouverture(case17, "https://scratch.mit.edu/projects/1081558063")});//jeu fantome et balle Taylor
 
 case18.addEventListener('click', function(){
-    ouverture(case18, "")});
+    ouverture(case18, "https://scratch.mit.edu/projects/1255010012")});// jeu instruments de musique Vio
 
 case19.addEventListener('click', function(){
     ouverture(case19, "")});
