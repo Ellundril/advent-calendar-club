@@ -110,7 +110,7 @@ case18.addEventListener('click', function(){
     ouverture(case18, "https://scratch.mit.edu/projects/1255010012")});// jeu instruments de musique Vio
 
 case19.addEventListener('click', function(){
-    ouverture(case19, "")});
+    ouverture(case19, "https://scratch.mit.edu/projects/1246041796")});//jeu flèche Taylor
 
 case20.addEventListener('click', function(){
     ouverture(case20, "")});
