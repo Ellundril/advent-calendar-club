@@ -113,7 +113,7 @@ case19.addEventListener('click', function(){
     ouverture(case19, "https://scratch.mit.edu/projects/1246041796")});//jeu flèche Taylor
 
 case20.addEventListener('click', function(){
-    ouverture(case20, "")});
+    ouverture(case20, "https://scratch.mit.edu/projects/1255091809")});//jeu soucoupe volante Abigaël
 
 case21.addEventListener('click', function(){
     ouverture(case21, "")});
