@@ -119,13 +119,13 @@ case21.addEventListener('click', function(){
     ouverture(case21, "https://scratch.mit.edu/projects/1222364881")});//jeu révolte des robots Félix
 
 case22.addEventListener('click', function(){
-    ouverture(case22, "")});
+    ouverture(case22, "https://scratch.mit.edu/projects/1255107729")});//jeu scarabée Abigaël ?
 
 case23.addEventListener('click', function(){
-    ouverture(case23, "")});
+    ouverture(case23, "")});// jeu loup Jules ? 
 
 case24.addEventListener('click', function(){
-    ouverture(case24, "")});
+    ouverture(case24, "")});//jeu escape room Vio
 
 
     
