@@ -116,7 +116,7 @@ case20.addEventListener('click', function(){
     ouverture(case20, "https://scratch.mit.edu/projects/1255091809")});//jeu soucoupe volante Abigaël
 
 case21.addEventListener('click', function(){
-    ouverture(case21, "")});
+    ouverture(case21, "https://scratch.mit.edu/projects/1222364881")});//jeu révolte des robots Félix
 
 case22.addEventListener('click', function(){
     ouverture(case22, "")});
