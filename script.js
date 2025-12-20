@@ -122,7 +122,7 @@ case22.addEventListener('click', function(){
     ouverture(case22, "https://scratch.mit.edu/projects/1255107729")});//jeu scarabée Abigaël 
 
 case23.addEventListener('click', function(){
-    ouverture(case23, "")});// jeu loup Jules ? 
+    ouverture(case23, "https://scratch.mit.edu/projects/1256559633")});// jeu loup Jules 
 
 case24.addEventListener('click', function(){
     ouverture(case24, "https://scratch.mit.edu/projects/1254135036")});//jeu escape room Vio
